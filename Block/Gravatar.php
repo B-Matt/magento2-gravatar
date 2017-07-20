@@ -38,7 +38,7 @@ class Gravatar extends \Magento\Framework\View\Element\Template
         return $this;
     }
 
-    public function setGravatarDefaultImage($image, $custom)
+    public function setGravatarDefaultImage($image, $custom = false)
     {
         if(!$custom) {
             $defaultImages = array('mm', 'identicon', 'monsterid', 'wavatar',  'retro', 'blank');
