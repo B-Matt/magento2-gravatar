@@ -1,0 +1,48 @@
+/*
+    Author: Matej
+    Description: Overrdrive for Blank theme.
+*/
+
+/** Accounts **/
+.account-avatar {
+    float: left;
+    margin-right: 20px;
+    border: 3px solid white;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+}
+.box-information .box-content {
+    margin-top: 12px;
+}
+.box-newsletter {
+    height: 123px;
+}
+/** Reviews **/
+.review-details {
+    margin-top: 55px;
+}
+.review-avatar {
+    float: left;
+    margin-right: 20px;
+    margin-top: -10px;
+    border: 3px solid white;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.29);
+}
+/** Mobile Responsive **/
+@media only screen and (max-width: 1280px) {
+    .account-avatar {
+        position: relative !important;
+        float: none !important;
+        width: 100px;
+        height: 100px;
+        left: 35%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+    }
+}
