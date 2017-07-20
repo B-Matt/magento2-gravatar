@@ -7,9 +7,21 @@ This module uses customer e-mail for generating Gravatar URL and it is complatib
  ## Requirements
     Magento 2.0+
     
- ## How to use
-Installation is pretty eas just use [Composer](https://getcomposer.org/) for it and viola!
+ ## How to install
 
+Installation is pretty easy just use [Composer](https://getcomposer.org/) for it and viola!
+If you can't install it via Composer just create Matej\Gravatar folders in app folder. 
+Your folder structure should look like:
+
+```
+app/code/
+├── Matej/
+│   │   ├──Gravatar/
+│   │   │   ├── ...
+│   │   │   ├── ...
+```
+   
+ ## How to use
 There is optional Block code that you can use in templates:
 ```php
 echo Matej\Gravatar\Helper\Data::getCustomerAvatarByMail($email);
